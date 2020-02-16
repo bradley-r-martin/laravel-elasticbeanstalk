@@ -8,7 +8,7 @@
       "email": "bradley.r.martin@me.com"
     }
   ],
-  "version": "1.0.0",
+  "minimum-stability": "dev",
   "require": {
     "peppeocchi/laravel-elb-middleware": "^3.0"
   },
