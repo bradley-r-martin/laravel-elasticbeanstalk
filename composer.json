@@ -1,0 +1,27 @@
+{
+  "name": "bradley-r-martin/elastic-beanstalk",
+  "description": "Elastic Beanstalk helper for Laravel",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Brad Martin",
+      "email": "bradley.r.martin@me.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "peppeocchi/laravel-elb-middleware": "^3.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "BRM\\ElasticBeanstalk\\FrameworkServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "BRM\\ElasticBeanstalk\\": "./"
+    }
+  }
+}
