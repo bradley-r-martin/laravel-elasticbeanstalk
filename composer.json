@@ -10,7 +10,8 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "peppeocchi/laravel-elb-middleware": "^3.0"
+    "peppeocchi/laravel-elb-middleware": "^3.0",
+    "dusterio/laravel-aws-worker": "~0.1"
   },
   "extra": {
     "laravel": {
